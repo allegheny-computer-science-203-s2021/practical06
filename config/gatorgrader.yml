@@ -22,9 +22,9 @@ tests:
             ConfirmFileExists
             CountMultipleLineComments --language Python --count 6
             CountSingleLineComments --language Python --count 0
-            MatchFileFragment --fragment "test_" --count 6
-            MatchFileFragment --fragment "assert" --count 6
-            MatchFileFragment --fragment "@pytest.mark.parametrize" --count 2
+            MatchFileFragment --fragment "test_" --count 7
+            MatchFileFragment --fragment "assert" --count 27
+            MatchFileFragment --fragment "@pytest.mark.parametrize" --count 3
             MatchFileFragment --fragment "@pytest.mark.hypothesisworks" --count 4
             MatchFileFragment --fragment "TODO" --count 0 --exact
 

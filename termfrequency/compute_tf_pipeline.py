@@ -7,6 +7,7 @@ import string
 
 # TODO: fix faults in the program
 
+
 def read_file(path_to_file):
 
     """Take a path to a file and return the entire contents of the file as a string"""
