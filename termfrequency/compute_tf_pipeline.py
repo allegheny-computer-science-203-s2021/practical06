@@ -21,7 +21,9 @@ def filter_chars_and_normalize(str_data):
     """Take a string and return a copy with all non-alphanumeric chars replaced by white space"""
 
     # perform pattern matching to extract the words
-    pattern = re.compile(r"[\W_]+")
+    # TODO: hint - \W matches a "non-word", \w will match a word.
+    # TODO: + will match 1 or more of the preceding token
+    pattern = re.compile(r"[\w_]+")
     return pattern.sub(" ", str_data).lower()
 
 

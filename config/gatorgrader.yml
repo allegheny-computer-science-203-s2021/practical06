@@ -15,6 +15,7 @@ termfrequency:
             MatchFileFragment --fragment "with open" --count 1
             MatchFileFragment --fragment "for w in word_list" --count 1
             MatchFileFragment --fragment "\W" --count 1
+            MatchFileFragment --fragment "print_all" --count 2
 
 tests:
         test_compute_tf_pipeline.py:
